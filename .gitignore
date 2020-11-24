@@ -1,0 +1,5 @@
+.DS_Store
+.env
+.ruby-version
+drafts
+Procfile
