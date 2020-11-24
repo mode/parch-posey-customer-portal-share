@@ -1,0 +1,55 @@
+<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+<style>
+
+body {
+	font-family: 'Karla', sans-serif;
+	margin: 0px;
+	background: #234f74;
+}
+
+.login-form {
+	text-align: center;
+	width: 400px;
+	height: 300px;
+	margin: 20 auto;
+	background: #f2f2f2;
+	border-radius: 4px;
+}
+
+.logo {
+	height: 50px;
+	margin: 20 auto;
+}
+
+h2 {
+	color: #234f74;
+	margin: 10;
+}
+
+input {
+	width: 300px;
+	margin: 2 auto;
+	padding: 10px;
+	height: 40px;
+	font-size: 16px;
+}
+
+.btn {
+	cursor: pointer;
+	background: #2f6c9d;
+  	border: 1px solid #234f74;
+  	color: #ffffff;
+}
+
+
+</style>
+
+<div class="login-form">
+	<img class="logo" src="logo.png"></img>
+	<h2>Customer Portal Login</h2>
+	<form action="/login" method="post">
+	    <input id="username" type="text" name="username" placeholder="Username"></input>
+	  	<input id="password" type="password" name="password" placeholder="Password"></input>
+	  	<input class="btn" type="submit" value="Login"></input>
+	</form>
+</div>
